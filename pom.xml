@@ -9,7 +9,7 @@
 	<version>1.0-SNAPSHOT</version>
   
     <!-- Packaging Stuff -->
-    <groupId>com.wolftein</groupId>
+    <groupId>com.volumetricpixels</groupId>
     <artifactId>WebAPI</artifactId>
     <packaging>jar</packaging>
     
@@ -37,9 +37,9 @@
 	
     <!-- Source Code Management -->
     <scm>
-        <developerConnection>scm:git:git@github.com:Wolftein/WebAPI.git</developerConnection>
-        <connection>scm:git:git://github.com/Wolftein/WebAPI.git</connection>
-        <url>https://github.com/Wolftein/WebAPI</url>
+        <developerConnection>scm:git:git@github.com:VolumetricPixels/WebAPI.git</developerConnection>
+        <connection>scm:git:git://github.com/VolumetricPixels/WebAPI.git</connection>
+        <url>https://github.com/VolumetricPixels/WebAPI</url>
     </scm>
 	
     <!-- Repositories -->
