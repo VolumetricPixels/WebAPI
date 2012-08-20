@@ -31,7 +31,7 @@
     <!-- Properties -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <mainClass>com.wolftein.webapi.WebPlugin</mainClass>
+        <mainClass>com.volumetricpixels.webapi.WebPlugin</mainClass>
         <staticVersion>dev-SNAPSHOT</staticVersion>
     </properties>
 	

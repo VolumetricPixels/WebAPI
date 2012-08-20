@@ -2,7 +2,7 @@
  * This file is subject to the terms and conditions defined in
  * file 'LICENSE.txt', which is part of this source code package.
  */
-package com.wolftein.webapi.protocol;
+package com.volumetricpixels.webapi.protocol;
 
 import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
@@ -28,11 +28,11 @@ import org.jboss.netty.handler.codec.http.websocketx.WebSocketServerHandshaker;
 import org.jboss.netty.handler.codec.http.websocketx.WebSocketServerHandshakerFactory;
 import org.jboss.netty.util.CharsetUtil;
 
-import com.wolftein.webapi.WebPlugin;
-import com.wolftein.webapi.event.WebRequestEvent;
-import com.wolftein.webapi.event.WebSocketConnectEvent;
-import com.wolftein.webapi.event.WebSocketDisconnectEvent;
-import com.wolftein.webapi.event.WebSocketMessageEvent;
+import com.volumetricpixels.webapi.WebPlugin;
+import com.volumetricpixels.webapi.event.WebRequestEvent;
+import com.volumetricpixels.webapi.event.WebSocketConnectEvent;
+import com.volumetricpixels.webapi.event.WebSocketDisconnectEvent;
+import com.volumetricpixels.webapi.event.WebSocketMessageEvent;
 
 /**
  * {@see SimpleChannelUpstreamHandler} for {@see WebSocketServer}

@@ -2,7 +2,7 @@
  * This file is subject to the terms and conditions defined in
  * file 'LICENSE.txt', which is part of this source code package.
  */
-package com.wolftein.webapi;
+package com.volumetricpixels.webapi;
 
 import java.io.File;
 

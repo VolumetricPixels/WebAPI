@@ -2,7 +2,7 @@
  * This file is subject to the terms and conditions defined in
  * file 'LICENSE.txt', which is part of this source code package.
  */
-package com.wolftein.webapi.rocky;
+package com.volumetricpixels.webapi.rocky;
 
 import java.net.InetSocketAddress;
 import java.util.concurrent.Executors;
@@ -14,7 +14,7 @@ import org.jboss.netty.channel.ChannelFutureListener;
 import org.jboss.netty.channel.socket.nio.NioClientSocketChannelFactory;
 import org.jboss.netty.handler.codec.http.websocketx.WebSocketFrame;
 
-import com.wolftein.webapi.WebPlugin;
+import com.volumetricpixels.webapi.WebPlugin;
 
 /**
  * Encapsulate the client that act as proxy between both protocol

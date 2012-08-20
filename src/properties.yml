@@ -3,5 +3,5 @@ version: 1.0
 description: Enable the use of WebSockets and HTML for Javascript clients.
 author: Wolftein <agustin.l.alvarez@hotmail.com>
 
-main: com.wolftein.webapi.WebPlugin
+main: com.volumetricpixels.webapi.WebPlugin
 platform: BOTH

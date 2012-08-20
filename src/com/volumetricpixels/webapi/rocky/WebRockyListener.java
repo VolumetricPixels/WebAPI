@@ -2,7 +2,7 @@
  * This file is subject to the terms and conditions defined in
  * file 'LICENSE.txt', which is part of this source code package.
  */
-package com.wolftein.webapi.rocky;
+package com.volumetricpixels.webapi.rocky;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -14,8 +14,8 @@ import org.spout.api.event.EventHandler;
 import org.spout.api.event.Listener;
 import org.spout.api.event.Order;
 
-import com.wolftein.webapi.event.WebSocketDisconnectEvent;
-import com.wolftein.webapi.event.WebSocketMessageEvent;
+import com.volumetricpixels.webapi.event.WebSocketDisconnectEvent;
+import com.volumetricpixels.webapi.event.WebSocketMessageEvent;
 
 /**
  * Encapsulate the listener for the JS WebGL client Rocky
