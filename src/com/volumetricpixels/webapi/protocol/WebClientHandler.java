@@ -28,7 +28,7 @@ import com.volumetricpixels.webapi.event.WebSocketMessageEvent;
  * 
  * @author Agustin Alvarez <agustin.l.alvarez@hotmail.com>
  */
-public class WebClientHandler  extends SimpleChannelUpstreamHandler {
+public class WebClientHandler extends SimpleChannelUpstreamHandler {
 	/**
 	 * The plugin instance
 	 */
