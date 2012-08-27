@@ -71,6 +71,44 @@
 		<sourceDirectory>src</sourceDirectory>
 		 
 		<plugins>
+		    <!-- License header formatting plugin -->
+            <plugin>
+                <groupId>com.mycila.maven-license-plugin</groupId>
+                <artifactId>maven-license-plugin</artifactId>
+                <version>1.10.b1</version>
+                <executions>
+                    <execution>
+                        <phase>clean</phase>
+                        <goals>
+                            <goal>format</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <quiet>true</quiet>
+                    <encoding>UTF-8</encoding>
+                    <strictCheck>true</strictCheck>
+                    <header>${basedir}/HEADER.txt</header>
+                    <keywords>
+                        <keyword>${project.name}</keyword>
+                        <keyword>license</keyword>
+                    </keywords>
+                    <mapping>
+                        <java>SLASHSTAR_STYLE</java>
+                    </mapping>
+                    <properties>
+                        <name>${project.name}</name>
+                        <url>${project.organization.url}</url>
+                        <license>VolumetricPixels License Version 1</license>
+                        <licenseUrl>http://google.com</licenseUrl>
+                        <copyright>Copyright (c) ${project.inceptionYear}-2012, ${project.organization.name}</copyright>
+                    </properties>
+                    <includes>
+                        <include>src/main/java/**</include>
+                        <include>src/test/java/**</include>
+                    </includes>
+                </configuration>
+            </plugin>
             <!-- Version strip plugin -->
             <plugin>
                 <groupId>com.sourcesense.maven</groupId>
@@ -105,7 +143,6 @@
                     <showDeprecation>true</showDeprecation>
                 </configuration>
 			</plugin>
-			
             <!-- Testing plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
