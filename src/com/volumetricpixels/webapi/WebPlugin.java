@@ -40,11 +40,10 @@ public class WebPlugin extends CommonPlugin {
 	@UnsafeMethod
 	public void onDisable() {
 		// Close the channel if we had to
-		if (channel == null || !channel.isOpen()) {
-			return;
+		if (channel != null && channel.isOpen()) {
+			channel.close();
+			printMessage("The listener has been closed");
 		}
-		channel.close();
-		printMessage("The listener has been closed");
 	}
 
 	/**
