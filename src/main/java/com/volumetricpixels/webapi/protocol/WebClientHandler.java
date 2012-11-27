@@ -12,10 +12,6 @@
  * If not, see <http://github.com/VolumetricPixels/Vitals/blob/master/License.txt>
  * for the full license.
  */
-/*
- * This file is subject to the terms and conditions defined in
- * file 'LICENSE.txt', which is part of this source code package.
- */
 package com.volumetricpixels.webapi.protocol;
 
 import org.jboss.netty.channel.ChannelHandlerContext;
